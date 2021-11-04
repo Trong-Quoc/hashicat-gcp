@@ -1,7 +1,7 @@
 module "network" {
   source  = "app.terraform.io/my-tf-org-trong/network/google"
   version = "3.4.0"
-  network_name ="gaurav-network"
+  network_name ="gaurav-network1"
   project_id = var.project
   subnets = [
   {
